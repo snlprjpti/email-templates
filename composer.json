@@ -19,5 +19,12 @@
         "psr-4": {
             "Modules\\EmailTemplate\\": ""
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EmailTemplate\\EmailTemplateServiceProvider"
+            ]
+        }
     }
 }
