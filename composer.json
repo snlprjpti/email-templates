@@ -8,9 +8,12 @@
             "email": "sunil@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
-            "providers": [],
+            "providers": [
+                "Modules\\EmailTemplate\\EmailTemplateServiceProvider"
+            ],
             "aliases": {
 
             }
@@ -19,13 +22,6 @@
     "autoload": {
         "psr-4": {
             "Modules\\EmailTemplate\\": ""
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Modules\\EmailTemplate\\EmailTemplateServiceProvider"
-            ]
         }
     }
 }
